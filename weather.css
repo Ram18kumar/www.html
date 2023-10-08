@@ -1,0 +1,61 @@
+.eee h1{
+    text-align: center;
+    background-color:yellow;
+    color: black;
+    height: 250px;
+    width: auto;
+    padding-top: 55px;
+    padding-bottom: 35px;
+    font-size: 80px;
+    border-color: brown;
+}
+.eee{
+    margin-top: 0%;
+}
+nav{
+    position:relative;
+    width: auto;
+    height:50px;
+    background: #222222;
+    border-radius: 8px;
+    display: flex;
+}
+nav li{
+    display: inline-block;
+    position: relative;
+    font-size: 1em;
+    font-weight: 500;
+    color:#fff;
+    text-decoration: none;
+    padding: 0 50px;
+
+}
+.eee form{
+    text-align: right;
+    background-color:yellow;
+    color: black;
+    height: 250px;
+    width: auto;
+    padding-top: 55px;
+    padding-bottom: 35px;
+    font-size: 80px;
+    border-color: brown;
+}
+.weather {
+    display: flex;
+    flex-direction: row;
+}
+.forecast{
+    width: 422px;
+    background-color: #34495e;
+    padding: 15px;
+    border-radius: 5px;
+    margin:0 auto;
+  }
+  
+  .forecast .city {
+    font-size: 26px;
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 7px;
+    font-weight: bold;
+    text-align:center;}
